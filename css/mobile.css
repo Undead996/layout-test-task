@@ -1,0 +1,185 @@
+@media screen and (max-width: 950px){
+    .header-content{
+        max-width: 728px;
+    }
+    .header-profile{
+        padding-right: 0;
+    }
+    .header-logo{
+        left: 0;
+    }
+    .header-search-container{
+        padding: 20px 0;
+        width: 344px;
+        height: 80px;
+    }
+    .search-input-container input{
+        height: 24px;
+        width: 280px;
+        position: relative;
+        top: -8px;
+        border: none;
+        padding: 0;
+    }
+    .partners-container{
+        max-width: 728px;
+        font-size: 28px;
+    }
+    .partner{
+        margin-top: 21px;
+        height: 120px;
+        width: 229px;
+        margin-right: 21px;
+    }
+    .partners-container-content{
+        padding-top: 10px;
+    }
+    .partner:nth-child(2n){
+        margin-right: 20px;
+    }
+    .partner:nth-child(3n){
+        margin-right: 0;
+    }
+    .partner:nth-child(4n){
+        margin-right: 20px;
+    }
+    .partner:nth-child(1) img{
+        width: 117px;
+    }
+    .partner:nth-child(2) img{
+        width: 183px;
+    }
+    .partner:nth-child(3) img{
+        width: 99px;
+    }
+    .partner:nth-child(4) img{
+        width: 175px;
+    }
+    .partner:nth-child(5) img{
+        width: 187px;
+    }
+    .partner:nth-child(6) img{
+        width: 143px;
+    }
+    .partner:nth-child(7) img{
+        width: 196px;
+    }
+}
+
+
+
+@media screen and (max-width: 728px){
+    .partner:nth-child(even){
+        margin-right: 0;
+    }
+    .partner:nth-child(odd){
+        margin-right: 21px;
+    }
+    .partners-container{
+        max-width: 480px;
+    }
+}
+
+
+
+@media screen and (max-width: 640px){
+    .header{
+        height: 105px;
+    }
+    .header-content{
+        max-width: 333px;
+        height: 63px;
+    }
+    .header-logo{
+        padding-top: 17px;
+    }
+    .header-search-container{
+        display: none;
+    }
+    .header-profile{
+        display: none;
+    }
+    .header-profile-mobile{
+        display: inline;
+        position: relative;
+        top: 22px;
+        left: 1px;
+    }
+    .header-profile{
+        padding-right: 0;
+    }
+    .header-logo{
+        left: 0;
+    }
+    .header-search-container-mobile{
+        display: block;
+        max-width: 375px;
+        margin: auto;
+    }
+    .header-search-container-mobile:before{
+        content:url("../images/Rectangle\ 305.png");
+        display: block;
+        position: relative;
+        top:-13px;
+        height: 1px;
+    }
+    .search-input-container-mob{
+        padding-left: 20px;
+    }
+    .search-input-container-mob img{
+        position: relative;
+        top: 8px;
+    }
+    .search-input-container-mob input{
+        font-family: "Montserrat";
+        width: 300px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        border: none;
+        position: relative;
+        top:1px;
+        left: -1px;
+    }
+
+
+
+    
+    .partners-container{
+        max-width: 335px;
+        font-size: 28px;
+    }
+    .partner{
+        margin-top: 20px;
+        height: 140px;
+        width: 335px;
+    }
+    .partner:nth-child(n){
+        margin-right: 0;
+    }
+    .partners-container-content{
+        padding-top: 10px;
+    }
+    .partner:nth-child(1) img{
+        width: 145px;
+    }
+    .partner:nth-child(2) img{
+        width: 234px;
+    }
+    .partner:nth-child(3) img{
+        width: 100px;
+    }
+    .partner:nth-child(4) img{
+        width: 194px;
+    }
+    .partner:nth-child(5) img{
+        width: 232px;
+    }
+    .partner:nth-child(6) img{
+        width: 141px;
+    }
+    .partner:nth-child(7) img{
+        width: 247px;
+    }
+}
